@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(34, 34, 35);
+}
+.navbar div{
+    color: rgb(246, 255, 0);
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    color: aliceblue;
+}
+.blok1{
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+    opacity: 0.9;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 50px;
+    color: aliceblue;
+}
+button{
+    background-color: rgb(255, 198, 11);
+    height: 80px;
+    width: 200px;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+}
+.blok2{
+    /* background-color: rgb(216, 250, 215); */
+    height:600px ;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 45px;
+    padding: 60px 100px;
+    text-align: center;
+}
+.blok2 .ust{
+    font-size: 30px;
+}
+.blok2 .alt{
+    /* background-color: rgb(100, 247, 198); */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.metn .icon span{
+    background-color: rgb(255, 230, 0);
+    width: 120px;
+    height: 120px;
+    font-size: 80px;
+    border-radius: 50%;
+    padding-top: 20px;
+    color: aliceblue;
+}
+span{
+    font-size: 100px;
+    
+}
+.blok2 .alt .metn{
+    /* background-color: rgb(252, 252, 255); */
+    height:400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.text p{
+    color: rgb(105, 105, 105);
+    padding-top: 10px;
+}
+.blok3{
+    background-color: rgb(235, 230, 230);
+    width: 100%;
+    /* height: 1000px; */
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 40px;
+    align-items: center;
+}
+.blok3 .basliq{
+    font-size: 30px;
+    text-align: center;
+}
+.bloklar{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+
+
+}
+.bloklar .hisse{
+    background-color: rgb(254, 254, 254);
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+
+}
+.hisse .sekil{
+    background-color: beige;
+    width: 100%;
+    height: 65%;
+    
+}
+.sekil img{
+    /* position: sticky;
+    */
+    width: 100%;
+    height: 100%;
+}
+.hisse .tipi{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+
+}
+.blok4{
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.tanitim{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    font-size: 25px;
+}
+.blok4 p, .blok3 p, .blok6 p{
+    color: rgb(125, 125, 125);
+}
+.adam{
+    background-color: rgb(255, 255, 255);
+    width:400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.picture{
+    background-color: rgb(130, 130, 123);
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picture img{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.tfi{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.tfi span{
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+
+    border-radius: 50%;
+    padding: 5px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.blok5{
+    background-color: rgb(247, 247, 247);
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.blok5 div{
+    width: 330px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+.blok6{
+    background-image: url("https://i.pinimg.com/originals/b3/6b/8c/b36b8cfdf3d9016e2da450e2eb43ed74.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+} 
+.inputlar{
+    padding: 0 100px;
+    display: flex;
+    gap: 20px;
+}
+.inputlar .left{
+    /* background-color: aliceblue; */
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    height: 70px;
+    width: 600px;
+    border-radius: 10px;
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+}
+.blok7{
+    background-color: rgb(164, 180, 195);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.blok7 .icon span{
+    font-size: 30px;
+    color: aliceblue;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+}
+.sonaxirkison{
+    display: flex;
+    gap: 40px;
+}
+input , textarea{
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+}
